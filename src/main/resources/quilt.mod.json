@@ -1,25 +1,27 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "com.Synchlabs",
+		"id": "edison",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Edison",
+			"description": "A mod aiming to expand the capabilities of redstone engineering in a vanilla-friendly way!",
 			"contributors": {
-				"Your name here": "Owner"
+				"Programming": "Synchlabs",
+				"Music/SFX": "Lethehead",
+				"Quality Control": "ItsMoros"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://github.com/Synchlabs/edison",
+				"issues": "https://github.com/Synchlabs/edison/issues",
+				"sources": "https://github.com/Synchlabs/edison"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/edison/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.Synchlabs.edison.EdisonInit"
 		},
 		"depends": [
 			{
@@ -36,5 +38,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "edison.mixins.json"
 }
