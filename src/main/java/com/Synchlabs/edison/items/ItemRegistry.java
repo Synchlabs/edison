@@ -1,7 +1,6 @@
 package com.Synchlabs.edison.items;
 
 import com.Synchlabs.edison.EdisonInit;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -12,7 +11,7 @@ import net.minecraft.util.Identifier;
 
 public class ItemRegistry {
 
-	public static final Item GLOWSHARD = registerItem("glowshard", new GlowShard());
+	public static final Item GLOWSHARD = registerItem("glowshard", new GlowShardItem());
 
 
 

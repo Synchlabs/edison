@@ -17,9 +17,9 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.RaycastContext;
 import net.minecraft.world.World;
 
-public class GlowShard extends Item {
+public class GlowShardItem extends Item {
 
-	public GlowShard() {
+	public GlowShardItem() {
 		super(new FabricItemSettings());
 	}
 
